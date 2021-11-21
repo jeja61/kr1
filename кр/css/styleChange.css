@@ -1,0 +1,217 @@
+body
+{
+    background: #E9F3F5;
+}
+/*div*/
+.Container/*общ.контейнер*/
+{
+    position: absolute;
+    width: 600px;
+    height: 859px;
+    left: 640px;
+    top: 85px;
+    background: #FFFFFF;
+    border-radius: 15px;
+
+}
+/*text*/
+h4
+{
+    position: absolute;
+    width: 327px;
+    height: 36px;
+    left: 137px;
+    top: 290px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #3F434A;
+    
+}
+.textEmail
+{
+    position: absolute;
+    width: 35px;
+    height: 18px;
+    left: 100px;
+    top: 400px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;  
+    color: #8A9099;
+}
+.textPass
+{
+    position: absolute;
+    width: 90px;
+    height: 18px;
+    left: 100px;
+    top: 500px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;  
+}
+.textPass2
+{
+    position: absolute;
+    width: 161px;
+    height: 18px;
+    left: 100px;
+    top: 600px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;
+    
+}
+.textBack
+{
+    position: absolute;
+    width: 270px;
+    height: 18px;
+    left: 120px;
+    bottom: 17px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #8A9099;
+}
+.textAuthorization
+{
+    position: absolute;
+    width: 270px;
+    height: 18px;
+    left: 195px;
+    bottom: 31px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #304FFD;
+}   
+/*input*/
+.inputEmail
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 440px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    display: flex;
+    text-align: left;
+    border-top: 0.8px solid #E8E9EB; /**/
+    border-left: 0.8px solid #E8E9EB;
+    border-right: 0.8px solid #E8E9EB;
+    border-bottom: 0.8px solid #E8E9EB;
+    border-radius: 15px;
+    background-color: transparent; /*прозрачный фон*/
+    background-repeat: no-repeat; 
+    color: #595F69;
+    padding: 0px 1px 0px 10px;
+}
+.inputPass
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 540px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    display: flex;
+    text-align: left;
+    border-top: 0.8px solid #E8E9EB; /**/
+    border-left: 0.8px solid #E8E9EB;
+    border-right: 0.8px solid #E8E9EB;
+    border-bottom: 0.8px solid #E8E9EB;
+    border-radius: 15px;
+    background-color: transparent; /*прозрачный фон*/
+    background-repeat: no-repeat; 
+    color: #595F69;
+    padding: 0px 1px 0px 10px;
+}
+.inputPass2
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 640px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    display: flex;
+    text-align: left;
+    border-top: 0.8px solid #E8E9EB; /**/
+    border-left: 0.8px solid #E8E9EB;
+    border-right: 0.8px solid #E8E9EB;
+    border-bottom: 0.8px solid #E8E9EB;
+    border-radius: 15px;
+    background-color: transparent; /*прозрачный фон*/
+    background-repeat: no-repeat; 
+    color: #595F69;
+    padding: 0px 1px 0px 10px;
+}
+/*btn*/
+.btnChange
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 720px;   
+    color: #FFFFFF;
+    background-color: #304FFD;
+    border-top: 0.8px solid #304FFD; /**/
+    border-left: 0.8px solid #304FFD;
+    border-right: 0.8px solid #304FFD;
+    border-bottom: 0.8px solid #304FFD;
+    border-radius: 15px;
+}
+/*img*/
+.imgLock
+{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 190px;
+    top: 80px;
+}
+.imgHide
+{
+    position: absolute;
+    width: 16px;
+    height: 7,5px;
+    left: 480px;
+    top: 557px;
+}
+.imgHide2
+{
+    position: absolute;
+    width: 16px;
+    height: 7,5px;
+    left: 480px;
+    top: 657px;
+}

@@ -1,0 +1,286 @@
+body
+{
+    background: #304FFD;
+}
+
+/*div*/
+.Container/*общ.контейнер*/
+{
+    position: absolute;
+    width: 600px;
+    height: 884px;
+    left: 1170px;
+    top: 70px;
+    right: 70px;
+    bottom: 90px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    
+}
+.ContTextEmail/*Контейнер с "войти через эл.почту"*/
+{
+    width: 600px;
+    height: 884px;
+    left: 500px;
+    top: 70px;
+    right: 70px;
+    background: #FFFFFF;
+    border-radius: 15px;   
+}
+.ContTextEmail::before
+{
+    content:'';
+    display: block;
+    width: 90px;
+    left: 100px;
+    height: 2px;
+    background-color: #E8E9EB;
+    position: absolute;
+    top:366px;
+}
+.ContTextEmail::after
+{
+    content:'';
+    display: block;
+    width: 90px;
+    left: 415px;
+    height: 2px;
+    background-color: #E8E9EB;
+    position: absolute;
+    top:366px;
+}
+/*text*/
+h4
+{
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #3F434A;
+    position: absolute;
+    width: 177px;
+    height: 36px;
+    left: 205px;
+    top: 130px;
+}
+.txte/*войти через эл.почту*/
+{
+    position: absolute;
+    width: 203px;
+    height: 18px;
+    left: 202px;
+    top: 346px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8A9099;
+    opacity: 0.6;
+}
+.textEmail
+{
+    position: absolute;
+    width: 35px;
+    height: 18px;
+    left: 100px;
+    top: 395px;  
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;
+}   
+.textPassword
+{
+    position: absolute;
+    width: 50px;
+    height: 18px;
+    left: 100px;
+    top: 489px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;   
+}
+.textRemember
+{
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 125px;
+    top: 589px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #595F69;
+}
+.textRecovery
+{
+    position: absolute;
+    width: 112px;
+    height: 18px;
+    left: 400px;
+    top: 605px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;   
+    text-align: right;  
+    color: #304FFD;
+}
+.textNoAccount
+{
+    position: absolute;
+    width: 270px;
+    height: 18px;
+    left: 100px;
+    bottom: 17px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #8A9099;
+}
+.textRegistration
+{
+    position: absolute;
+    width: 270px;
+    height: 18px;
+    left: 220px;
+    bottom: 31px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #304FFD;
+}
+/*input*/
+.inputEmail
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 440px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    display: flex;
+    text-align: left;
+    border-top: 0.8px solid #E8E9EB; /**/
+    border-left: 0.8px solid #E8E9EB;
+    border-right: 0.8px solid #E8E9EB;
+    border-bottom: 0.8px solid #E8E9EB;
+    border-radius: 15px;
+    background-color: transparent; /*прозрачный фон */
+    background-repeat: no-repeat; 
+    color: #595F69;
+    padding: 0px 1px 0px 10px;
+}
+.inputPassword
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 537px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    display: flex;
+    text-align: left;
+    border-top: 0.8px solid #E8E9EB; /**/
+    border-left: 0.8px solid #E8E9EB;
+    border-right: 0.8px solid #E8E9EB;
+    border-bottom: 0.8px solid #E8E9EB;
+    border-radius: 15px;
+    background-color: transparent; /*прозрачный фон кнопки*/
+    background-repeat: no-repeat; 
+    color: #595F69;
+    padding: 0px 1px 0px 10px;
+}
+.cbRemember
+{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 100px;
+    top: 600px;
+    background-color: #304FFD;
+}
+/*btn*/
+.btnGoogle
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 270px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    border-top: 0.8px solid #E8E9EB; /**/
+    border-left: 0.8px solid #E8E9EB;
+    border-right: 0.8px solid #E8E9EB;
+    border-bottom: 0.8px solid #E8E9EB;
+    border-radius: 15px;
+    background-color: transparent; /*прозрачный фон кнопки*/
+    background-repeat: no-repeat; 
+    color: #595F69;
+    padding: 10px 128px 10px 128px;
+}
+.btnEnter
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 650px;    
+    color: #FFFFFF;
+    background-color: #304FFD;
+    border-top: 0.8px solid #304FFD; /**/
+    border-left: 0.8px solid #304FFD;
+    border-right: 0.8px solid #304FFD;
+    border-bottom: 0.8px solid #304FFD;
+    border-radius: 15px;
+}
+/*img*/
+.imgGoogle
+{
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    left: 14px;
+    top: 12px;
+}
+.imgIllustr
+{
+    position: absolute;
+    width: 689.76px;
+    height: 699.34px;
+    left: 226px;
+    top: 126px;
+}
+

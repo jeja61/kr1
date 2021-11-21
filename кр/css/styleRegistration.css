@@ -1,0 +1,362 @@
+body
+{
+    background: #E9F3F5;
+}
+
+/*div*/
+.Container/*общ.контейнер*/
+{
+    position: absolute;
+    width: 600px;
+    height: 878px;
+    left: 650px;
+    top: 73px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+.ContTextEmail/*Контейнер с "войти через эл.почту"*/
+{
+    width: 600px;
+    height: 884px;
+    left: 500px;
+    top: 70px;
+    background: #FFFFFF;
+    border-radius: 15px;   
+}
+.ContTextEmail::before
+{
+    content:'';
+    display: block;
+    width: 90px;
+    left: 100px;
+    height: 2px;
+    background-color: #E8E9EB;
+    position: absolute;
+    top:269px;
+}
+.ContTextEmail::after
+{
+    content:'';
+    display: block;
+    width: 90px;
+    left: 405px;
+    height: 2px;
+    background-color: #E8E9EB;
+    position: absolute;
+    top:269px;
+}
+/*text*/
+h4
+{
+    position: absolute;
+    width: 172px;
+    height: 36px;
+    left: 214px;
+    top: 50px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: #3F434A;
+}
+.txte
+{
+    position: absolute;
+    width: 203px;
+    height: 18px;
+    left: 197px;
+    top:250px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8A9099;
+}
+.textFIO
+{
+    position: absolute;
+    width: 34px;
+    height: 18px;
+    left: 100px;
+    top: 300px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;
+}
+.textEmail
+{
+    position: absolute;
+    width: 35px;
+    height: 18px;
+    left: 100px;
+    top: 400px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;  
+    color: #8A9099;
+}
+.textPassword
+{
+    position: absolute;
+    width: 50px;
+    height: 18px;
+    left: 100px;
+    top: 500px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;  
+}
+.textPassword2
+{
+    position: absolute;
+    width: 161px;
+    height: 18px;
+    left: 100px;
+    top: 600px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A9099;
+    
+}
+.textAccept
+{
+    position: absolute;
+    width: 352px;
+    height: 18px;
+    left: 122px;
+    top: 679px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #595F69;
+}
+.textPolicy
+{
+    position: absolute;
+    width: 352px;
+    height: 18px;
+    left: 242px;
+    top: 693px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #304FFD;
+}
+.textAccount
+{
+    position: absolute;
+    width: 270px;
+    height: 18px;
+    left: 120px;
+    bottom: 17px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #8A9099;
+}
+.textEnter
+{
+    position: absolute;
+    width: 270px;
+    height: 18px;
+    left: 200px;
+    bottom: 31px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #304FFD;
+}
+/*input*/
+.inputFIO
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 340px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    display: flex;
+    text-align: left;
+    border-top: 0.8px solid #E8E9EB; /**/
+    border-left: 0.8px solid #E8E9EB;
+    border-right: 0.8px solid #E8E9EB;
+    border-bottom: 0.8px solid #E8E9EB;
+    border-radius: 15px;
+    background-color: transparent; /*прозрачный фон*/
+    background-repeat: no-repeat; 
+    color: #595F69;
+    padding: 0px 1px 0px 10px;
+}
+.inputEmail
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 440px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    display: flex;
+    text-align: left;
+    border-top: 0.8px solid #E8E9EB; /**/
+    border-left: 0.8px solid #E8E9EB;
+    border-right: 0.8px solid #E8E9EB;
+    border-bottom: 0.8px solid #E8E9EB;
+    border-radius: 15px;
+    background-color: transparent; /*прозрачный фон*/
+    background-repeat: no-repeat; 
+    color: #595F69;
+    padding: 0px 1px 0px 10px;
+}
+.inputPass
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 540px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    display: flex;
+    text-align: left;
+    border-top: 0.8px solid #E8E9EB; /**/
+    border-left: 0.8px solid #E8E9EB;
+    border-right: 0.8px solid #E8E9EB;
+    border-bottom: 0.8px solid #E8E9EB;
+    border-radius: 15px;
+    background-color: transparent; /*прозрачный фон*/
+    background-repeat: no-repeat; 
+    color: #595F69;
+    padding: 0px 1px 0px 10px;
+}
+.inputPass2
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 640px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    display: flex;
+    text-align: left;
+    border-top: 0.8px solid #E8E9EB; /**/
+    border-left: 0.8px solid #E8E9EB;
+    border-right: 0.8px solid #E8E9EB;
+    border-bottom: 0.8px solid #E8E9EB;
+    border-radius: 15px;
+    background-color: transparent; /*прозрачный фон*/
+    background-repeat: no-repeat; 
+    color: #595F69;
+    padding: 0px 1px 0px 10px;
+}
+.cb
+{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 100px;
+    top: 690px;
+    background-color: #304FFD;
+}
+/*btn*/
+.btnGoogle
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 170px;
+    font-family: Stem;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    border-top: 0.8px solid #E8E9EB; /**/
+    border-left: 0.8px solid #E8E9EB;
+    border-right: 0.8px solid #E8E9EB;
+    border-bottom: 0.8px solid #E8E9EB;
+    border-radius: 15px;
+    background-color: transparent; /*прозрачный фон кнопки*/
+    background-repeat: no-repeat; 
+    color: #595F69;
+    padding: 10px 128px 10px 128px;
+}
+.btnAuthorization
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 100px;
+    top: 740px;    
+    color: #FFFFFF;
+    background-color: #304FFD;
+    border-top: 0.8px solid #304FFD; /**/
+    border-left: 0.8px solid #304FFD;
+    border-right: 0.8px solid #304FFD;
+    border-bottom: 0.8px solid #304FFD;
+    border-radius: 15px;
+}
+/*img*/
+.imgGoogle
+{
+    position: absolute;
+    width: 15px;
+    height: 16px;
+    left: 14px;
+    top: 12px;
+}
+.imgHide
+{
+    position: absolute;
+    width: 16px;
+    height: 7,5px;
+    left: 480px;
+    top: 557px;
+}
+.imgHide2
+{
+    position: absolute;
+    width: 16px;
+    height: 7,5px;
+    left: 480px;
+    top: 657px;
+}
